@@ -1,4 +1,4 @@
-package com.anhtester.Baif5_locator.XpathTuongDoi;
+package com.anhtester.Bai5_locator.XpathTuongDoi;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

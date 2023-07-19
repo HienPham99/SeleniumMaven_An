@@ -1,4 +1,4 @@
-package com.anhtester.Baif5_locator;
+package com.anhtester.Bai5_locator;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
