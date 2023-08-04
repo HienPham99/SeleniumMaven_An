@@ -13,6 +13,7 @@ public class BaseTest {
     public static WebDriver driver;
 
     public static void createBrowser() {
+        System.setProperty("webdriver.http.factory", "jdk-http-client");//xử lý cảnh báo (Wamming) Connection reset trong Selenium
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
