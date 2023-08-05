@@ -11,7 +11,7 @@ public class HandleCheckbox extends BaseTest {
     public static void main(String[] args) {
 
         createBrowser();
-        driver.get("https://demo.seleniumeasy.com/basic-checkbox-demo.html");
+        driver.get("http://demo.seleniumeasy.com/basic-checkbox-demo.html");
 
         //Kiểm tra checkbox đã được chọn chưa
 
