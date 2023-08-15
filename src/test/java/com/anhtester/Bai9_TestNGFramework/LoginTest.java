@@ -1,17 +1,15 @@
 package com.anhtester.Bai9_TestNGFramework;
 
+import com.anhtester.common.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 
-public class LoginTest {
+public class LoginTest extends BaseTest {
 
     WebDriver driver;
 
